@@ -505,7 +505,7 @@ window.SITE_CONFIG = {{
       <div>
         <h4 class="site-footer__heading">{contacts}</h4>
         <ul class="site-footer__list">
-          <li><strong>Netmart LLC</strong></li>
+          <li><strong>Oakridge Direct LLC</strong></li>
           <li>County of Sussex 16192 Coastal Hwy</li>
           <li>Lewes, DE 19958-3608, United States</li>
           <li><a href="mailto:info@homevalis.com">info@homevalis.com</a></li>
@@ -513,7 +513,7 @@ window.SITE_CONFIG = {{
       </div>
     </div>
     <div class="site-footer__bottom">
-      © <span data-year>2026</span> <strong>Netmart LLC</strong> — {rights}
+      © <span data-year>2026</span> <strong>Oakridge Direct LLC</strong> — {rights}
       <a href="/">homevalis.com</a>
     </div>
   </div>

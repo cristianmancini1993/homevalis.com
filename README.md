@@ -7,7 +7,7 @@ Static HTML/CSS/JS multi-geo e-commerce site for Cash On Delivery campaigns (Met
 ## Quick facts
 
 - **Domain**: homevalis.com
-- **Company**: Netmart LLC — 1180 Avenue of the Americas, Suite 800, New York, NY 10036, United States
+- **Company**: Oakridge Direct LLC — 350 Fifth Avenue, Suite 5420, New York, NY 10118, United States
 - **Contact email**: info@homevalis.com (auto-derived from domain)
 - **First product**: HyperTrimmer™ 3000 (slug: `hypertrimmer`) — battery-powered grass trimmer
 - **Geos active**: 18 (it, es, fr, de, pt, gr, bg, ro, cz, pl, ee, lv, lt, hr, hu, si, sk, en)
@@ -143,6 +143,6 @@ Then add the product card to each `[geo]/index.html` and the URLs to `sitemap.xm
 
 ## License & ownership
 
-© 2026 Netmart LLC — All rights reserved.
+© 2026 Oakridge Direct LLC — All rights reserved.
 
 Generated with the Landing Factory multi-geo static template.

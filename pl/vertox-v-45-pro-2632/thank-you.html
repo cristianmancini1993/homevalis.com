@@ -209,8 +209,16 @@ window.SITE_CONFIG = {
 <script>
 // Trigger Purchase / conversion event after page load
 window.addEventListener('load', function () {
-  if (window.fbq) window.fbq('track', 'Purchase', { value: 349, currency: 'PLN' });
-  if (window.trackPurchase) window.trackPurchase(349, 'PLN');
+  var VALUE = 349, CURRENCY = 'PLN';
+  var fire = true;
+  try {
+    var p = new URLSearchParams(location.search);
+    var oid = p.get('order_id') || p.get('transaction_id') || p.get('tid') || location.pathname;
+    var k = 'hv_purchase_' + oid;
+    if (localStorage.getItem(k)) { fire = false; } else { localStorage.setItem(k, '1'); }
+  } catch (e) {}
+  if (fire && window.fbq) window.fbq('track', 'Purchase', { value: VALUE, currency: CURRENCY });
+  if (window.trackPurchase) window.trackPurchase(VALUE, CURRENCY);
 });
 </script>
 </head>

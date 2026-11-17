@@ -209,6 +209,7 @@ window.SITE_CONFIG = {
 <script>
 // Trigger Purchase / conversion event after page load
 window.addEventListener('load', function () {
+  if (window.fbq) window.fbq('track', 'Purchase', { value: 399, currency: 'RON' });
   if (window.trackPurchase) window.trackPurchase(399, 'RON');
 });
 </script>

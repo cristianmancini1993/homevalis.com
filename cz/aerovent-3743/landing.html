@@ -50,7 +50,7 @@ a{color:var(--brand)}
 .italic{font-style:italic}
 
 /* TOPBAR */
-.topbar{position:sticky;top:0;z-index:40;background:var(--ink);color:#fff;font-size:12.5px;font-weight:700;text-align:center;padding:9px 12px;border-bottom:2px solid var(--brand-2)}
+.topbar{position:sticky;top:0;z-index:40;background:var(--ink);color:#fff;font-size:clamp(9px,2.6vw,13px);font-weight:700;text-align:center;white-space:nowrap;letter-spacing:-0.2px;padding:7px 9px;border-bottom:2px solid var(--brand-2)}
 .topbar b{color:var(--lime)}
 
 /* PILL */
@@ -59,13 +59,13 @@ a{color:var(--brand)}
 .pill i{width:8px;height:8px;border-radius:70%;background:var(--amber);display:inline-block;animation:pulse 1.4s infinite}
 
 /* HERO */
-.hero{position:relative;padding:18px 0 10px;background:
+.hero{position:relative;padding:12px 0 8px;background:
   radial-gradient(900px 420px at 12% -10%,#e4edff 0,rgba(228,237,255,0) 60%),
   radial-gradient(760px 380px at 100% 0%,#fff1e6 0,rgba(255,241,230,0) 55%),#fff}
-.hero-grid{display:grid;gap:22px;align-items:center}
+.hero-grid{display:grid;gap:16px;align-items:center}
 @media(min-width:900px){.hero{padding-top:30px}.hero-grid{grid-template-columns:1.05fr 1fr;gap:46px}}
-.hero h1{font-size:27px;line-height:1.18;font-weight:800;margin:10px 0 12px;text-wrap:balance}
-@media(min-width:380px){.hero h1{font-size:29px}}
+.hero h1{font-size:24px;line-height:1.17;font-weight:800;margin:8px 0 10px;text-wrap:balance}
+@media(min-width:380px){.hero h1{font-size:26px}}
 @media(min-width:900px){.hero h1{font-size:44px}}
 .hero .lead{color:var(--ink-soft);font-size:17px;line-height:1.5;margin-bottom:12px}
 @media(min-width:900px){.hero .lead{font-size:18px}}
